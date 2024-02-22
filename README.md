@@ -11,8 +11,3 @@ def reverse_list(my_list):
     for i in range(length // 2):
         # Swap elements at indices i and length - 1 - i
         my_list[i], my_list[length - 1 - i] = my_list[length - 1 - i], my_list[i]
-
-# Example usage:
-my_list = [1, 2, 3, 4, 5]
-reverse_list(my_list)
-print(my_list)  # Output: [5, 4, 3, 2, 1]
